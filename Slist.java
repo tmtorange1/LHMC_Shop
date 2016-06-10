@@ -1,4 +1,4 @@
-package DunnoWhatToNameThis;
+package me.TMT.LHMCShop;
 
 import java.util.Iterator;
 import java.util.Set;
@@ -12,11 +12,11 @@ public class Slist implements CommandExecutor {
 	public boolean onCommand(CommandSender sender, Command cmd, String commandLabel, String[] args) {
 		// Command format: /slist
 		if (cmd.getName().equalsIgnoreCase("slist")) { 
-			sender.sendMessage(classyClass.chatTag + "All valid items: ");
-			Set<String> items = classyClass.getInstance().getConfig().getKeys(false);
+			sender.sendMessage(Main.chatTag + "All valid items: ");
+			Set<String> items = Main.getInstance().getConfig().getKeys(false);
 			Iterator<String> iter = items.iterator();
 			while (iter.hasNext()) {
-			    sender.sendMessage(classyClass.chatTag + "- " + iter.next());
+			    sender.sendMessage(Main.chatTag + "- " + iter.next());
 			}
 			
 		}
