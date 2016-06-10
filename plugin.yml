@@ -1,0 +1,15 @@
+name: LHMC_SHOP
+version: 1.0
+description: This plugin provides a command based server shop.
+author: _TMT_
+depend: [Vault]
+main: DunnoWhatToNameThis.classyClass
+commands:
+  sbuy:
+    description: Buy items from the server.
+  sprice:
+    description: Returns the price of an item.
+  ssell:
+    description: Sells items to the server.
+  slist:
+    description: Lists all buyable/sellable items and their prices.

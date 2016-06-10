@@ -1,0 +1,44 @@
+diamond:
+  buy: 400.0
+  sell: 40.0
+  enum: DIAMOND
+ink:
+  buy: 5.0
+  sell: 1.0
+  enum: INK_SACK
+redstonelamp:
+  buy: 4.50
+  sell: 0.75
+  enum: REDSTONE_LAMP_OFF
+wool:
+  buy: 3.0
+  sell: 1.5
+  enum: WOOL
+redstone:
+  buy: 2.50
+  sell: .01
+  enum: REDSTONE
+cake:
+  buy: 10.0
+  sell: 1.0
+  enum: CAKE
+dirt:
+  buy: 0.03
+  sell: 0.01
+  enum: DIRT
+log:
+  buy: 0.1
+  sell: 0.03
+  enum: LOG
+stone:
+  buy: 1.28
+  sell: 0.05
+  enum: STONE
+cobble:
+  buy: 0.03
+  sell: 0.01
+  enum: COBBLESTONE
+snowblock:
+  buy: 0.36
+  sell: 0.04
+  enum: SNOW_BLOCK
