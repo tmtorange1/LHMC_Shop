@@ -3,7 +3,7 @@ version: 1.0
 description: This plugin provides a command based server shop.
 author: _TMT_
 depend: [Vault]
-main: DunnoWhatToNameThis.classyClass
+main: me.TMT.LHMCShop.Main
 commands:
   sbuy:
     description: Buy items from the server.
@@ -13,3 +13,7 @@ commands:
     description: Sells items to the server.
   slist:
     description: Lists all buyable/sellable items and their prices.
+  scount:
+    description: Counts the amount of a certain item in your inv.
+  sellto:
+    description: Sell an item to another player.

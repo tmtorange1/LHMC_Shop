@@ -65,10 +65,12 @@ public class Main extends JavaPlugin {
         }
         
         // Commands
-    	getCommand("sbuy").setExecutor(new Sbuy());
-    	getCommand("sprice").setExecutor(new Sprice());
-    	getCommand("ssell").setExecutor(new Ssell());
-    	getCommand("slist").setExecutor(new Slist());
+    	getCommand("sbuy").setExecutor(new Buy());
+    	getCommand("sprice").setExecutor(new Price());
+    	getCommand("ssell").setExecutor(new Sell());
+    	getCommand("slist").setExecutor(new List());
+    	getCommand("scount").setExecutor(new Count());
+    	getCommand("sellto").setExecutor(new Sellto());
     	
     	
 

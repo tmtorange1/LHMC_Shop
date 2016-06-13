@@ -42,3 +42,67 @@ snowblock:
   buy: 0.36
   sell: 0.04
   enum: SNOW_BLOCK
+gold:
+  buy: 100.0
+  sell: 9.0
+  enum: GOLD_INGOT
+emerald:
+  buy: 250.0
+  sell: 25.0
+  enum: EMERALD
+coal:
+  buy: 3.5
+  sell: 0.5
+  enum: COAL
+wheat:
+  buy: 2.5
+  sell: 0.1
+  enum: WHEAT
+grass:
+  buy: 0.25
+  sell: 0.03
+  enum: GRASS
+iron:
+  buy: 5.5
+  sell: 1.25
+  enum: IRON_INGOT
+stonebrick:
+  buy: 1.28
+  sell: 0.05
+  enum: SMOOTH_BRICK
+glowstone:
+  buy: 3.0
+  sell: 0.2
+  enum: GLOWSTONE  
+milk:
+  buy: 10.0
+  sell: 1.75
+  enum: MILK_BUCKET
+rottenflesh:
+  buy: 0.25
+  sell: 0.05
+  enum: ROTTEN_FLESH
+enderpearl:
+  buy: 0.15
+  sell: 0.02
+  enum: ENDER_PEARL
+bone:
+  buy: 1.5
+  sell: 0.25
+  enum: BONE
+ghasttear:
+  buy: 3.0
+  sell: 0.45
+  enum: GHAST_TEAR
+blazerod:
+  buy: 6.0
+  sell: 0.5
+  enum: BLAZE_ROD
+leather:
+  buy: 5.0
+  sell: 1.25
+  enum: LEATHER
+glass:
+  buy: 0.28
+  sell: 0.05
+  enum: GLASS
